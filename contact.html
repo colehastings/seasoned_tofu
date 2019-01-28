@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me</title>
+<link href="contactstyle.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+<link rel="icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+	<header>
+		<div class="bg-img">
+    
+    <nav class="navbar">
+      
+      <span class="open-slide">
+        <a href="#" onclick="openSlideMenu()">
+
+        <svg width="30" height="30">
+
+                <path d="M0,5 30,5" stroke="#ffffff"
+                stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#ffffff"
+                stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#ffffff"
+                stroke-width="5"/></svg>﻿
+                 </a>
+            </span>
+
+       <ul class="navbar-nav">
+      
+      <li><a href="Shop.html" class="link">Shop</a></li>
+        <li><a href="Contact.html" class="link">Contact</a></li>
+        <li><a href="Portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="Testimonials.html" class="link">Testimonials</a></li>
+      </ul>
+    </nav>
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&#10006;</a>
+    <a href="home.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="contact.html">Contact</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="testimonials.html">Testimonials</a>
+  </div>
+    <a href="Home.html"><img src="img/logo.svg" class="logo"></a>
+  
+  <h1 class="heading">Make your own rules.</h1>
+</div>
+  	</header>	
+
+    <section class="message">
+    <div class="headingwrap">
+      <h1>Contact</h1>
+    </div>
+    <form action="/action_page.php">
+    <div class ="textbox-wrapper">
+      <label>
+      <input type="text" name="name" class="textbox-style" placeholder="First Name">
+    </label>
+    <label>
+     
+      <input type="text" name="email" class="textbox-style" placeholder="Your Best Email">
+    </label>
+    <label>
+      
+      <textarea rows="4" cols="50" class="messagebox-style" placeholder="Type your message"></textarea>
+     
+    </label>
+  </div>
+      <div class="button-padding">
+      <input type="submit" value="SEND" class ="button">
+      </div>
+
+    </form>
+  </section>
+  <section class = 'social-links'>
+    <h1>Other Ways To Get In Touch</h1>
+    <div class="social-wrapper">
+      <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/colehastings">
+      <div class="social2-wrapper" class="float-l">
+        <img src = "img/youtube.svg" class="socialimg">
+        <span class="caption">Youtube</span>
+      </div>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/eightfold_fitness">
+      <div class="social2-wrapper" class="float-r">
+        <img src = "img/instagram.svg" class="socialimg">
+      <span class="caption">Instagram</span>      
+    </div>
+  </a>
+  <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/seasoned_tofu">
+      <div class="social2-wrapper" class="float-l">
+        <img src = "img/twitter.svg" class="socialimg">
+         <span class="caption">Twitter</span>
+      </div>
+    </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/eightfoldfitness">
+      <div class="social2-wrapper" class="float-r">
+        <img src = "img/facebook.svg" class="socialimg">
+         <span class="caption">Facebook</span>
+      </div>
+    </a>
+   
+  </div>
+  </section>
+
+  <footer>
+    <a href="home.html"><img src="img/logo.svg" class="footlogo"></a>
+    <div class="bottomnav">
+          <a href="shop.html">Shop</a>
+          <a href="contact.html">Contact</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="testimonials.html">Testimonials</a>
+
+      </div>
+    <div class="row">
+      <div class="column">
+        <a target="_blank" rel="noopener noreferrer" href="https://youtube.com/colehastings"><img src="img/youtube.svg" alt="Youtube" class="footimg"></a>
+      </div>
+      <div class="column">
+        <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/eightfold_fitness"><img src="img/instagram.svg" alt="Instagram" class="footimg"></a>
+      </div>
+      <div class="column">
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/seasoned_tofu"><img src="img/twitter.svg" alt="Twitter" class="footimg"></a>
+      </div>
+      <div class="column">
+        <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/eightfoldfitness"><img src="img/facebook.svg" alt="Facebook" class="footimg"></a>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+  function openSlideMenu(){
+    document.getElementById("side-menu").style.width = "175px";
+
+    
+    
+  }
+  function closeSlideMenu(){
+    document.getElementById("side-menu").style.width = "0";
+    
+    
+  }
+
+</script>
+</body>
+
+
+  </html>
