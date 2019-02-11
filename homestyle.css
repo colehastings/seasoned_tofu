@@ -232,7 +232,7 @@ li{
 	position: relative;
 }
 .textbox-style{
-	font-size: 3vw;
+	font-size: 2.5vw;
 	width:35%;
 	padding-left: 10px;
 	padding-bottom: 0px;
@@ -604,6 +604,7 @@ footer {
 	.bg-img{
 
 		min-height:150vw;
+		background-image: url(img/Homeherosmall.png);
 
 	}
 	.heading{
@@ -621,7 +622,7 @@ footer {
 	}
 	.button{
 		font-size: 4.5vw;
-		padding: 3% 2%;
+		padding: 3% 3%;
 	}
 	.signup h1{
 		font-size: 7vw;
@@ -635,8 +636,8 @@ footer {
 		font-size: 6vw;
 	}
 	.buttonother{
-		font-size: 3.5vw;
-		padding: 3% 2%;
+		font-size: 4vw;
+		padding: 3% 3%;
 		
 	}
 	.aboutme-box{
@@ -691,7 +692,7 @@ footer {
 	.button2{
 		position: absolute;
 		font-size: 4vw;
-		padding: 3% 2%;
+		padding: 3% 3%;
 		top: 79.5vw;
 
 	}

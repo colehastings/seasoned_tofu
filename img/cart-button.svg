@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 249.371 125.346">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed553b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 24px;
+        font-family: Raleway-Regular, Raleway;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_7);
+      }
+    </style>
+    <filter id="Rectangle_7" x="0" y="0" width="249.371" height="125.346" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.239"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="cart-button" transform="translate(-859 -463)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 859, 463)">
+      <rect id="Rectangle_7-2" data-name="Rectangle 7" class="cls-1" width="189.371" height="65.346" rx="10" transform="translate(30 28)"/>
+    </g>
+    <text id="ADD_TO_CART" data-name="ADD TO CART" class="cls-2" transform="translate(906 532.346)"><tspan x="0" y="0">ADD TO CART</tspan></text>
+  </g>
+</svg>

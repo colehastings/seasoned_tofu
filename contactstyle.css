@@ -20,7 +20,7 @@ html, body{
 
 .bg-img {
   /* The image used */
-  background-image: url(img/Homehero.png);
+  background-image: url(img/Contacthero.png);
 
 
 
@@ -401,6 +401,9 @@ footer {
  .bg-img{
 
     min-height:150vw;
+    background-image: url(img/Contactherosmall.png);
+
+
 
   }
   .bg-img h1{
@@ -418,7 +421,7 @@ footer {
   }
   .button{
     font-size: 4.5vw;
-    padding: 3% 3%;
+    padding: 3% 4%;
 
   }
   .button-padding{

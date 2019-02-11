@@ -56,7 +56,7 @@
     <div class="headingwrap">
       <h1>Contact</h1>
     </div>
-    <form action="/action_page.php">
+    <form method="post" action="action_page.php">
     <div class ="textbox-wrapper">
       <label>
       <input type="text" name="name" class="textbox-style" placeholder="First Name">
@@ -67,12 +67,12 @@
     </label>
     <label>
       
-      <textarea rows="4" cols="50" class="messagebox-style" placeholder="Type your message"></textarea>
+      <textarea rows="4" cols="50" name = "message" class="messagebox-style" placeholder="Type your message"></textarea>
      
     </label>
   </div>
       <div class="button-padding">
-      <input type="submit" value="SEND" class ="button">
+      <input type="submit" name = 'submit' value="SEND" class ="button">
       </div>
 
     </form>
