@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
 <head>
@@ -6,7 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Me</title>
 <link href="contactstyle.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
 <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 
@@ -32,21 +34,21 @@
 
        <ul class="navbar-nav">
       
-      <li><a href="Shop.html" class="link">Shop</a></li>
-        <li><a href="Contact.html" class="link">Contact</a></li>
-        <li><a href="Portfolio.html" class="link">Portfolio</a></li>
-        <li><a href="Testimonials.html" class="link">Testimonials</a></li>
+      <li><a href="shop" class="link">Shop</a></li>
+        <li><a href="contact" class="link">Contact</a></li>
+        <li><a href="portfolio" class="link">Portfolio</a></li>
+        <li><a href="testimonials" class="link">Testimonials</a></li>
       </ul>
     </nav>
   <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&#10006;</a>
-    <a href="home.html">Home</a>
-    <a href="shop.html">Shop</a>
-    <a href="contact.html">Contact</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="testimonials.html">Testimonials</a>
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">X</a>
+    <a href="home">Home</a>
+    <a href="shop">Shop</a>
+    <a href="contact">Contact</a>
+    <a href="portfolio">Portfolio</a>
+    <a href="testimonials">Testimonials</a>
   </div>
-    <a href="Home.html"><img src="img/logo.svg" class="logo"></a>
+    <a href="home"><img src="img/logo.png" class="logo"></a>
   
   <h1 class="heading">Make your own rules.</h1>
 </div>
@@ -56,7 +58,7 @@
     <div class="headingwrap">
       <h1>Contact</h1>
     </div>
-    <form method="post" action="action_page.php">
+    <form method="post" name="contact_form "action="contact-form-handler.php">
     <div class ="textbox-wrapper">
       <label>
       <input type="text" name="name" class="textbox-style" placeholder="First Name">
@@ -109,12 +111,12 @@
   </section>
 
   <footer>
-    <a href="home.html"><img src="img/logo.svg" class="footlogo"></a>
+    <a href="home"><img src="img/logo.png" class="footlogo"></a>
     <div class="bottomnav">
-          <a href="shop.html">Shop</a>
-          <a href="contact.html">Contact</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="testimonials.html">Testimonials</a>
+          <a href="shop">Shop</a>
+          <a href="contact">Contact</a>
+          <a href="portfolio">Portfolio</a>
+          <a href="testimonials">Testimonials</a>
 
       </div>
     <div class="row">
@@ -145,6 +147,16 @@
     
   }
 
+</script>
+
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
+<script src="gen_validatorv31.js">
 </script>
 </body>
 
